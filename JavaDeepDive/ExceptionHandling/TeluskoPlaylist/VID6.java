@@ -26,7 +26,7 @@ public class VID6 {
 		try (BufferedReader brNew = new BufferedReader(new InputStreamReader(System.in))) {
 			String s = brNew.readLine();
 		} catch (IOException a) {
-			brNew.close();// no need to do this now
+			//brNew.close();// no need to do this now
 		}
 	}
 
